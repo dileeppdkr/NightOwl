@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lng: 1.5
+  lon: 1.5
+  place: MyString
+  pin: 1
+  status: 1
+
+two:
+  lng: 1.5
+  lon: 1.5
+  place: MyString
+  pin: 1
+  status: 1

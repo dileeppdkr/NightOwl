@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  categoty_id: 1
+  user_id: 1
+  location: MyString
+  time_from: MyString
+  time_to: MyString
+  days: 
+  status: 1
+
+two:
+  name: MyString
+  categoty_id: 1
+  user_id: 1
+  location: MyString
+  time_from: MyString
+  time_to: MyString
+  days: 
+  status: 1

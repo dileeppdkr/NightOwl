@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Rattings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Ratting</th>
+      <th>Shop</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @rattings.each do |ratting| %>
+      <tr>
+        <td><%= ratting.user_id %></td>
+        <td><%= ratting.ratting %></td>
+        <td><%= ratting.shop_id %></td>
+        <td><%= link_to 'Show', ratting %></td>
+        <td><%= link_to 'Edit', edit_ratting_path(ratting) %></td>
+        <td><%= link_to 'Destroy', ratting, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ratting', new_ratting_path %>
